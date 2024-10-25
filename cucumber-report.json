@@ -1,0 +1,367 @@
+[
+  {
+    "description": "  As a user of the calculator\n  I want to perform basic arithmetic operations\n  So that I can verify the results and history of calculations",
+    "elements": [
+      {
+        "description": "",
+        "id": "calculator-operations;perform-addition-of-two-numbers",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Perform addition of two numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 763429699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the calculator page",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 384402499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter the number \"5\" into the first input",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30951500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter the number \"10\" into the second input",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10669599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select \"ADDITION\" operation",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5219399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click \"Go!\"",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195766099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the result \"15\"",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5012351400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the history should show \"5 + 10\"",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19739099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 96931300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculator-operations;perform-multiplication-of-two-numbers",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Perform multiplication of two numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 212595499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the calculator page",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150828299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I enter the number \"3\" into the first input",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21234899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I enter the number \"7\" into the second input",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6447199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I select \"MULTIPLICATION\" operation",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4767100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click \"Go!\"",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135649000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see the result \"21\"",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002983599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the history should show \"3 * 7\"",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17090600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 92798299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "calculator-operations;perform-division-by-zero",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Perform division by zero",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 248134699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I am on the calculator page",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169938899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I enter the number \"10\" into the first input",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21760999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I enter the number \"0\" into the second input",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7636099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I select \"DIVISION\" operation",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4146099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I click \"Go!\"",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132429600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I should see the result \"Infinity\"",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5007486899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the history should show \"10 / 0\"",
+            "match": {
+              "location": "tests\\steps\\homepage.step.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16327300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 94273500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "calculator-operations",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Calculator operations",
+    "tags": [],
+    "uri": "tests\\features\\homepage.feature"
+  }
+]
